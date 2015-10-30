@@ -8,6 +8,11 @@ public class Student {
 	private String assignmentType;
 	private Date assignmentDate;
 	private int grade;
+	private double average;
+	private double max_grade;
+	private double low_grade;
+	
+	
 	public int getStudentID() {
 		return studentID;
 	}
@@ -43,6 +48,24 @@ public class Student {
 	}
 	public void setGrade(int grade) {
 		this.grade = grade;
+	}
+	public double getAverage() {
+		return average;
+	}
+	public void setAverage(double average) {
+		this.average = average;
+	}
+	public double getMax_grade() {
+		return max_grade;
+	}
+	public void setMax_grade(double max_grade) {
+		this.max_grade = max_grade;
+	}
+	public double getLow_grade() {
+		return low_grade;
+	}
+	public void setLow_grade(double low_grade) {
+		this.low_grade = low_grade;
 	}
 
 }
